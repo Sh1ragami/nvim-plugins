@@ -135,7 +135,8 @@ return {
     -- CocList mappings
     local lopts = { silent = true, nowait = true }
     keyset("n", "<space>a", ":<C-u>CocList diagnostics<cr>", lopts)
-    keyset("n", "<space>e", ":<C-u>CocList extensions<cr>", lopts)
+    -- Reserve <leader>e for file explorer; move Coc extensions list to <leader>ce
+    keyset("n", "<space>ce", ":<C-u>CocList extensions<cr>", lopts)
     keyset("n", "<space>c", ":<C-u>CocList commands<cr>", lopts)
     keyset("n", "<space>o", ":<C-u>CocList outline<cr>", lopts)
     keyset("n", "<space>s", ":<C-u>CocList -I symbols<cr>", lopts)
@@ -144,4 +145,3 @@ return {
     keyset("n", "<space>p", ":<C-u>CocListResume<cr>", lopts)
   end,
 }
-
