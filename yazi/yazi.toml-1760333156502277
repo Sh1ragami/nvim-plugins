@@ -1,0 +1,9 @@
+[manager]
+show_hidden = true
+
+[opener]
+# Use Neovim as the editor when editing from yazi
+edit = [
+  { run = 'nvim "$@"', block = true, for = "unix" }
+]
+
