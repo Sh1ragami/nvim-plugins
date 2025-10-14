@@ -8,6 +8,7 @@ return {
     style = "storm",
     transparent = false,
     terminal_colors = true,
+    dim_inactive = true,
     styles = {
       comments = { italic = true },
       keywords = { italic = true },
@@ -20,4 +21,3 @@ return {
     vim.cmd.colorscheme("tokyonight")
   end,
 }
-

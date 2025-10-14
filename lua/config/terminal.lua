@@ -4,7 +4,8 @@ vim.api.nvim_create_autocmd("TermOpen", {
   group = group,
   pattern = "*",
   callback = function()
-    vim.opt_local.number = false
+    -- Show numbers in terminal buffers as well
+    vim.opt_local.number = true
     vim.opt_local.relativenumber = false
     vim.opt_local.signcolumn = "no"
 
@@ -16,4 +17,3 @@ vim.api.nvim_create_autocmd("TermOpen", {
     vim.cmd("startinsert")
   end,
 })
-
