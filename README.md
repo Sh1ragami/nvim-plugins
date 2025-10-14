@@ -4,8 +4,12 @@
 * lazy.nvim　https://github.com/folke/lazy.nvim
 
 UI
-* lualilne.nvim　https://github.com/nvim-lualine/lualine.nvim
+* lualilne.nvim https://github.com/nvim-lualine/lualine.nvim
 * tokyonight.nvim https://github.com/folke/tokyonight.nvim
+* barbar https://github.com/romgrk/barbar.nvim
+
+ターミナル
+* toggleterm https://github.com/akinsho/toggleterm.nvim
 
 ファイラー
 * yazi.nvim　https://github.com/mikavilpas/yazi.nvim
@@ -13,16 +17,29 @@ UI
 補完
 * coc.nvim　https://github.com/neoclide/coc.nvim
 
+Git連携
+* gitsigns https://github.com/lewis6991/gitsigns.nvim
+
 ```zsh
 .
 ├── init.lua
 ├── lazy-lock.json
-└── lua
-    ├── config
-    │   └── lazy.lua
-    └── plugins
-        ├── coc.lua
-        ├── lualine.lua
-        ├── tokyonight.lua
-        └── yazi.lua
+├── lua
+│   ├── config
+│   │   ├── lazy.lua
+│   │   └── terminal.lua
+│   └── plugins
+│       ├── barbar.lua
+│       ├── coc.lua
+│       ├── commentary.lua
+│       ├── gitsigns.lua
+│       ├── lualine.lua
+│       ├── nvim-tree.lua
+│       ├── toggleterm.lua
+│       ├── tokyonight.lua
+│       └── yazi.lua
+├── README.md
+└── yazi
+    └── yazi.toml-1760333156502277
 ```
+
