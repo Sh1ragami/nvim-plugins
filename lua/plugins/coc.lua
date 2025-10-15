@@ -16,6 +16,7 @@ return {
       "coc-lua",
       "coc-sh",
       "coc-yaml",
+      "coc-flutter",
     }
   end,
   config = function()
