@@ -15,7 +15,9 @@ UI
 * yazi.nvim　https://github.com/mikavilpas/yazi.nvim
 
 補完
-* coc.nvim　https://github.com/neoclide/coc.nvim
+* coc.nvim https://github.com/neoclide/coc.nvim
+* whichi-key.nvim https://github.com/machakann/vim-sandwich
+* vim-sandwich https://github.com/folke/which-key.nvim
 
 Git連携
 * gitsigns https://github.com/lewis6991/gitsigns.nvim
